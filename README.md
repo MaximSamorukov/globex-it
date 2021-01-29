@@ -1,5 +1,7 @@
 Тестовое задание Globex-it
 
+https://maximsamorukov.github.io/globex-it/index.html
+
 №1 На HTML
 Нарисовать таблицу 3*4. Одна ячейка красный фон, одна синий шрифт курсивом.
 
