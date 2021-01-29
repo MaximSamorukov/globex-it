@@ -67,13 +67,14 @@ const optionOne = document.createElement('input');
 optionOne.type = 'radio';
 optionOne.name = 'option';
 optionOne.value = 'one';
+optionOne.checked = option === 'one';
 const optionTextOne = document.createElement('p').textContent = 'One value';
 
 const optionMany = document.createElement('input');
 optionMany.type = 'radio';
 optionMany.name = 'option';
 optionMany.value = 'many';
-optionMany.checked = true;
+optionMany.checked = option === 'many';
 const optionTextMany = document.createElement('p').textContent = 'Many values';
 
 selectOption.addEventListener('change', (e) => {
